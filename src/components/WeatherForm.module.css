@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: 50%;
+}
+
+form input::placeholder {
+    font-size: 20px;
+    color:white;
+}
+
+.errorText {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

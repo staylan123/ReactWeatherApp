@@ -1,0 +1,77 @@
+.weatherBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 450px;
+    margin: 15px auto;
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+    font-size: 1.75rem; 
+    text-align: center; 
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.imageCard {
+    display: block;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.imageCard img {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTemp {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maxTemp {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minTemp {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherHumidity {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MEDIA  QUERIES */
+@media screen and (max-width: 750px) {
+    .weatherBox {
+      width: 50%;
+    }
+  }
+
